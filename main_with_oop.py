@@ -57,8 +57,3 @@ def cramer(pivot_frame, index_total, columns_total):
   return cramer, chi
 
 
-#NOTE: Testing for outputs
-c1 = Cramer(df, 'Nationality', 'Club')
-print(c1.get_pivot())
-print(c1.cramer)
-
