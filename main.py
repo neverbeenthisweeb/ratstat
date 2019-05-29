@@ -1,10 +1,8 @@
-import os
-
 import numpy as np
 import pandas as pd
 
 # NOTE: This data is for testing purpose, later will be deleted
-df = pd.read_csv('dataset/fifa.csv', index_col=0)
+df = pd.read_csv('dataset/fifa.csv', index_col=0, low_memory=False)
 
 
 def cramer(df, idx, col):
